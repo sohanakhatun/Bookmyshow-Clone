@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1762064169968,
+      "email": "sohanakhatun16@gmail.com",
+      "password": "123456",
+      "name": "Sohana Khatun",
+      "createdAt": "2025-11-02T06:16:09.968Z"
+    },
+    {
+      "email": "sohanakhatun126@gmail.com",
+      "password": "$2a$10$mWS1ssKK/cEsG/kVKTisc.pxrv8HDLCc2wg60s8UGYrO2QIliS1IO",
+      "id": 1762064169969
+    },
+    {
+      "email": "sohanakhatun162@gmail.com",
+      "password": "$2a$10$A9qWX.L0LbBu32zCLGqSiON0DTBgPlEgcjQtKcNiqbaZD/LwX/OQO",
+      "name": "Sohana Khatun",
+      "id": 1762064169970
+    },
+    {
+      "email": "sohanakhatun465@gmail.com",
+      "password": "$2a$10$781ZIh9G35e3B0Fziu6ltebYeWU0NsC74qWuBc6HwCj05DnDRsG6y",
+      "name": "Sohana Khatun",
+      "id": 1762064169971,
+      "username": "reginaphalange69",
+      "phoneNumber": "98765432393",
+      "age": "24",
+      "avatar": "https://i.pinimg.com/1200x/f0/a8/d6/f0a8d666c5d2fe8d572b0aac3ca4b186.jpg"
+    }
+  ]
+}
