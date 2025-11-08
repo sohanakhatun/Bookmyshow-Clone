@@ -11,6 +11,7 @@ import Login from "./components/Auth/Login";
 import Register from "./components/Auth/Register";
 import Dashboard from "./components/ProfileDashboard/Dashboard";
 import Home from "./components/Home";
+import { MovieProvider } from "./Context/MovieContext";
 
 function App() {
   const ProtectedRoute = ({ children }) => {
@@ -22,46 +23,50 @@ function App() {
     const { user } = useAuth();
     return !user ? children : <Navigate to="/dashboard" />;
   };
+
   return (
     <Router>
       <AuthProvider>
-        <Navbar />
-        <Routes>
-          <Route
-            path="/login"
-            element={
-              <LoggedInRoute>
-                <Login />
-              </LoggedInRoute>
-            }
+        <MovieProvider>
+          <Navbar />
+          <Routes>
+            <Route
+              path="/login"
+              element={
+                <LoggedInRoute>
+                  <Login />
+                </LoggedInRoute>
+              }
+            />
+            <Route
+              path="/register"
+              element={
+                <LoggedInRoute>
+                  <Register />
+                </LoggedInRoute>
+              }
+            />
+            <Route
+              path="/dashboard"
+              element={
+                <ProtectedRoute>
+                  <Dashboard />
+                </ProtectedRoute>
+              }
+            />
+
+            <Route path="/" element={<Home />} />
+          </Routes>
+          <Toaster
+            position="top-center"
+            toastOptions={{
+              classNames: {
+                success: "!bg-green-50 !text-green-900 !border-green-300",
+                error: "!bg-red-50 !text-red-900 !border-red-300",
+              },
+            }}
           />
-          <Route
-            path="/register"
-            element={
-              <LoggedInRoute>
-                <Register />
-              </LoggedInRoute>
-            }
-          />
-          <Route
-            path="/dashboard"
-            element={
-              <ProtectedRoute>
-                <Dashboard />
-              </ProtectedRoute>
-            }
-          />
-          <Route path="/" element={<Home />} />
-        </Routes>
-        <Toaster
-          position="top-center"
-          toastOptions={{
-            classNames: {
-              success: "!bg-green-50 !text-green-900 !border-green-300",
-              error: "!bg-red-50 !text-red-900 !border-red-300",
-            },
-          }}
-        />
+        </MovieProvider>
       </AuthProvider>
     </Router>
   );

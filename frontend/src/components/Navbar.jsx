@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { Menu, X, User, LogOut, LogIn } from "lucide-react"; // For clean icons
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Menu, X, User, LogOut, LogIn } from "lucide-react"; 
 import { useAuth } from "../Context/AuthContext";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import {
@@ -10,6 +10,8 @@ import {
 } from "@/components/ui/hover-card";
 
 import { Button } from "./ui/button";
+
+import AllLocations from "./Navigation/AllLocations";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,6 +34,7 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
+            <AllLocations />
             {user ? (
               <div className="text-gray-700 cursor-pointer hover:text-black transition font-medium">
                 <HoverCard>

@@ -22,6 +22,7 @@ import {
 import MyEvents from "../Events/MyEvents";
 import LikedEvents from "../Events/LikedEvents";
 import EditProfile from "./EditProfile";
+import { useUserCity } from "../../hooks/useLocation";
 
 const Dashboard = () => {
   const { user, logout } = useAuth();
@@ -30,6 +31,8 @@ const Dashboard = () => {
     logout();
     navigate("/login");
   };
+
+  const { currentUserCity } = useUserCity();
 
   return (
     <div className="min-h-screen  from-background to-muted/20 p-4 md:p-8">
@@ -55,7 +58,9 @@ const Dashboard = () => {
                     {user?.name}
                   </h2>
                   <p className="text-sm text-muted-foreground">{user?.email}</p>
-                  <p className="text-sm text-muted-foreground">@{user?.username}</p>
+                  <p className="text-sm text-muted-foreground">
+                    @{user?.username}
+                  </p>
                 </div>
 
                 <Separator className="my-4" />
@@ -77,11 +82,17 @@ const Dashboard = () => {
           <main className="lg:col-span-9">
             <Tabs defaultValue="yourEvents" className="w-full">
               <TabsList className="grid w-full grid-cols-3 mb-6">
-                <TabsTrigger value="yourEvents" className="gap-2 cursor-pointer">
+                <TabsTrigger
+                  value="yourEvents"
+                  className="gap-2 cursor-pointer"
+                >
                   <CalendarDays className="w-4 h-4" />
                   <span className="hidden sm:inline">Your Events</span>
                 </TabsTrigger>
-                <TabsTrigger value="likedEvents" className="gap-2 cursor-pointer">
+                <TabsTrigger
+                  value="likedEvents"
+                  className="gap-2 cursor-pointer"
+                >
                   <Heart className="w-4 h-4" />
                   <span className="hidden sm:inline">Liked Events</span>
                 </TabsTrigger>
@@ -166,7 +177,7 @@ const Dashboard = () => {
                           Location
                         </label>
                         <p className="text-foreground font-medium">
-                          {user?.location}
+                          {currentUserCity}
                         </p>
                       </div>
                     </div>
