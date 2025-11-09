@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           {/* Logo / App Name */}
           <Link to="/" className="text-2xl font-semibold text-black">
-            BookMyShow
+            🎬 MovieTime
           </Link>
 
           {/* Desktop Menu */}

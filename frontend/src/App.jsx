@@ -12,6 +12,8 @@ import Register from "./components/Auth/Register";
 import Dashboard from "./components/ProfileDashboard/Dashboard";
 import Home from "./components/Home";
 import { MovieProvider } from "./Context/MovieContext";
+import MovieDetails from "./components/Movies/MovieDetails";
+import Footer from "./components/Footer";
 
 function App() {
   const ProtectedRoute = ({ children }) => {
@@ -56,6 +58,7 @@ function App() {
             />
 
             <Route path="/" element={<Home />} />
+            <Route path="/movies/:id" element={<MovieDetails/>}/>
           </Routes>
           <Toaster
             position="top-center"
@@ -66,6 +69,7 @@ function App() {
               },
             }}
           />
+          <Footer/>
         </MovieProvider>
       </AuthProvider>
     </Router>

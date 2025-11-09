@@ -9,24 +9,19 @@ export function useUserCity() {
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-
   const { user } = useAuth();
+
   useEffect(() => {
-    async function getCity(lat, lon) {
+    if (!user) {
+      return;
+    }
+    async function getCity() {
+      setLoading(true);
       try {
-        const res = await fetch(
-          `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lon}&localityLanguage=en`
-        );
+        const res = await fetch(`https://ipinfo.io/json?token=e84bafc467f161`);
         const data = await res.json();
-
-        const cityName =
-          data.city ||
-          data.locality ||
-          data.principalSubdivision ||
-          "Unknown location";
-
-        setCurrentUserCity(cityName);
-        localStorage.setItem("currentCity", cityName);
+        setCurrentUserCity(data.city);
+        localStorage.setItem("currentCity", data.city);
       } catch (err) {
         setError("Failed to get city name.");
       } finally {
@@ -34,31 +29,7 @@ export function useUserCity() {
       }
     }
 
-    function requestLocation() {
-      if (!navigator.geolocation) {
-        setError("Geolocation not supported by browser.");
-        return;
-      }
-
-      setLoading(true);
-      navigator.geolocation.getCurrentPosition(
-        (pos) => {
-          const { latitude, longitude } = pos.coords;
-          getCity(latitude, longitude);
-        },
-        (err) => {
-          setLoading(false);
-          if (err.code === err.PERMISSION_DENIED) {
-            setError("Please allow location access.");
-            localStorage.removeItem("currentCity");
-          } else {
-            setError("Unable to retrieve location.");
-          }
-        }
-      );
-    }
-
-    requestLocation();
+    if (!currentUserCity) getCity();
   }, [user]);
 
   return { currentUserCity, loading, error, setCurrentUserCity };

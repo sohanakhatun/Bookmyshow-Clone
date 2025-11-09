@@ -1,11 +1,11 @@
+import { Link } from "react-router-dom";
 import { useMovieContext } from "../../Context/MovieContext";
 import MovieCard from "./MovieCard";
 import { MapPinOff } from "lucide-react";
 
 const MovieList = () => {
-  const { movies } = useMovieContext();
-
-  if (movies.length === 0) {
+  const { movies , error} = useMovieContext();
+  if (error) {
     return (
       <div className="flex flex-col items-center justify-center text-center p-10 rounded-2xl bg-gray-50 border border-dashed border-gray-300 mx-4 my-8">
         <div className="flex items-center justify-center w-16 h-16 rounded-full bg-red-100 mb-4">
@@ -17,7 +17,7 @@ const MovieList = () => {
         <p className="text-gray-600 max-w-sm">
           Please allow{" "}
           <span className="font-medium text-red-500">location permissions</span>
-          to view the movies available in your area.
+          <span> to view the movies available in your area.</span>
         </p>
       </div>
     );
@@ -26,7 +26,9 @@ const MovieList = () => {
   return (
     <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-6">
       {movies.map((movie) => (
-        <MovieCard key={movie.id} movie={movie} />
+        <Link to={`/movies/${movie.id}`}>
+          <MovieCard key={movie.id} movie={movie} />
+        </Link>
       ))}
     </div>
   );

@@ -47,9 +47,18 @@
       "releaseDate": "2023-09-07",
       "description": "A man driven by personal vengeance fights corruption and injustice with a team of skilled women.",
       "cast": [
-        "Shah Rukh Khan",
-        "Nayanthara",
-        "Vijay Sethupathi"
+        {
+          "name": "Shah Rukh Khan",
+          "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+        },
+        {
+          "name": "Nayanthara",
+          "image": "https://i.pinimg.com/1200x/78/2a/f2/782af270a8cbc37174928a3754654fc4.jpg"
+        },
+        {
+          "name": "Vijay Sethupathi",
+          "image": "https://i.pinimg.com/1200x/30/a4/f6/30a4f6559eb657efb4a9848cd57048d7.jpg"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/1200x/8a/0d/98/8a0d987eaac06af3a51caf79417d0246.jpg",
       "availableInLocations": [
@@ -143,9 +152,18 @@
       "releaseDate": "2023-10-19",
       "description": "A café owner’s dark past resurfaces when he is forced into violence.",
       "cast": [
-        "Vijay",
-        "Trisha Krishnan",
-        "Sanjay Dutt"
+        {
+          "name": "Vijay",
+          "image": "https://m.media-amazon.com/images/I/61Daf205q6L._AC_UF894,1000_QL80_.jpg"
+        },
+        {
+          "name": "Trisha Krishnan",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Trisha_Krishnan_at_PS1_pre_release_event_%283%29_%28cropped%29.jpg"
+        },
+        {
+          "name": "Sanjay Dutt",
+          "image": "https://media.assettype.com/outlookindia/2025-01-06/ughlko40/1.png?w=452&auto=format%2Ccompress&fit=max&format=webp&dpr=1.0"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/736x/1a/85/fc/1a85fc08c07154c0e942e771a1d758c6.jpg",
       "availableInLocations": [
@@ -153,7 +171,7 @@
         "Hyderabad",
         "Bengaluru",
         "Pune",
-        "Bhadrak"
+        "Bhubaneswar"
       ],
       "showtimes": [
         {
@@ -209,7 +227,7 @@
           "availableSeats": 140
         },
         {
-          "location": "Bhadrak",
+          "location": "Bhubaneswar",
           "theater": "Brindaban Talkies",
           "timings": [
             "10:00 AM",
@@ -220,6 +238,32 @@
           "ticketPrice": 210,
           "totalSeats": 150,
           "availableSeats": 88
+        },
+        {
+          "location": "Bhubaneswar",
+          "theater": "Ravi Talkies",
+          "timings": [
+            "11:00 AM",
+            "1:30 PM",
+            "5:00 PM",
+            "8:30 PM"
+          ],
+          "ticketPrice": 240,
+          "totalSeats": 150,
+          "availableSeats": 80
+        },
+        {
+          "location": "Bhubaneswar",
+          "theater": "Inox",
+          "timings": [
+            "12:00 AM",
+            "1:30 PM",
+            "5:00 PM",
+            "8:30 PM"
+          ],
+          "ticketPrice": 200,
+          "totalSeats": 150,
+          "availableSeats": 18
         }
       ]
     },
@@ -238,8 +282,14 @@
       "releaseDate": "2023-08-11",
       "description": "Tara Singh returns to Pakistan to rescue his captured son.",
       "cast": [
-        "Sunny Deol",
-        "Ameesha Patel"
+        {
+          "name": "Sunny Deol",
+          "image": "https://i.pinimg.com/736x/fb/d3/9e/fbd39e69d560abac278326e0dc3ba052.jpg"
+        },
+        {
+          "name": "Ameesha Patel",
+          "image": "https://i.pinimg.com/736x/2b/34/6e/2b346e2ef1a4f980c87ab3659fcd85ca.jpg"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/1200x/9c/90/2c/9c902cc0dd2b7dcd2d972f2daabf307f.jpg",
       "availableInLocations": [
@@ -247,7 +297,7 @@
         "Mumbai",
         "Kolkata",
         "Pune",
-        "Bhadrak"
+        "Bhubaneswar"
       ],
       "showtimes": [
         {
@@ -302,7 +352,7 @@
           "availableSeats": 100
         },
         {
-          "location": "Bhadrak",
+          "location": "Bhubaneswar",
           "theater": "Jayashree Talkies",
           "timings": [
             "11:00 AM",
@@ -332,9 +382,18 @@
       "releaseDate": "2022-03-25",
       "description": "Two revolutionaries fight against the British Raj in 1920s India.",
       "cast": [
-        "Ram Charan",
-        "N. T. Rama Rao Jr.",
-        "Alia Bhatt"
+        {
+          "name": "Ram Charan",
+          "image": "https://i.pinimg.com/736x/41/a5/ff/41a5ff01106b9a0e76fb293e5adf91d7.jpg"
+        },
+        {
+          "name": "N. T. Rama Rao Jr.",
+          "image": "https://i.pinimg.com/1200x/68/40/a4/6840a4abfeb252d624d8ba3552be3f75.jpg"
+        },
+        {
+          "name": "Alia Bhatt",
+          "image": "https://i.pinimg.com/736x/21/29/7a/21297a5420992bb436c6e94eb0b99029.jpg"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/736x/e5/21/52/e52152364dc8fb2b25e3dadb188af09f.jpg",
       "availableInLocations": [
@@ -430,8 +489,14 @@
       "releaseDate": "2022-09-30",
       "description": "A conflict erupts between humans and nature in a sacred forest village.",
       "cast": [
-        "Rishab Shetty",
-        "Sapthami Gowda"
+        {
+          "name": "Rishab Shetty",
+          "image": "https://i.pinimg.com/736x/71/2f/18/712f18d2dce5ae6b390221e70ae52b00.jpg"
+        },
+        {
+          "name": "Sapthami Gowda",
+          "image": "https://i.pinimg.com/1200x/a5/ac/f1/a5acf11b09728a13f529a61c1c2fa869.jpg"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/736x/e4/be/a1/e4bea11b766f0a9c91d8c6217c16fff4.jpg",
       "availableInLocations": [
@@ -439,7 +504,7 @@
         "Chennai",
         "Hyderabad",
         "Kolkata",
-        "Bhadrak"
+        "Bhubaneswar"
       ],
       "showtimes": [
         {
@@ -494,7 +559,7 @@
           "availableSeats": 132
         },
         {
-          "location": "Bhadrak",
+          "location": "Bhubaneswar",
           "theater": "Brindaban Talkies",
           "timings": [
             "9:45 AM",
@@ -526,9 +591,18 @@
       "releaseDate": "2023-01-25",
       "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
       "cast": [
-        "Shah Rukh Khan",
-        "Deepika Padukone",
-        "John Abraham"
+        {
+          "name": "Shah Rukh Khan",
+          "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+        },
+        {
+          "name": "Deepika Padukone",
+          "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+        },
+        {
+          "name": "John Abraham",
+          "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
       "availableInLocations": [
@@ -625,16 +699,25 @@
       "releaseDate": "2021-12-17",
       "description": "The rise of a daily wage labourer into a red sanders smuggler in the forests of Seshachalam.",
       "cast": [
-        "Allu Arjun",
-        "Rashmika Mandanna",
-        "Fahadh Faasil"
+        {
+          "name": "Allu Arjun",
+          "image": "https://i.pinimg.com/736x/32/ca/2a/32ca2a19227db1ed21d7373789941a06.jpg"
+        },
+        {
+          "name": "Rashmika Mandanna",
+          "image": "https://i.pinimg.com/1200x/c3/84/cd/c384cd9d9f83efb9a6ea2e93a5dd9f9a.jpg"
+        },
+        {
+          "name": "Fahadh Faasil",
+          "image": "https://i.pinimg.com/736x/ac/e3/23/ace32361d7dafd451cc41660a2e870ba.jpg"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/1200x/a9/74/c1/a974c1c19644d39d2b43cc799223279c.jpg",
       "availableInLocations": [
         "Hyderabad",
         "Chennai",
         "Pune",
-        "Bhadrak"
+        "Bhubaneswar"
       ],
       "showtimes": [
         {
@@ -676,7 +759,7 @@
           "availableSeats": 135
         },
         {
-          "location": "Bhadrak",
+          "location": "Bhubaneswar",
           "theater": "Jayashree Talkies",
           "timings": [
             "12:00 PM",
@@ -709,10 +792,22 @@
       "releaseDate": "2023-12-01",
       "description": "A son's obsessive devotion to his father drives him to a path of extreme violence and conflict.",
       "cast": [
-        "Ranbir Kapoor",
-        "Anil Kapoor",
-        "Bobby Deol",
-        "Rashmika Mandanna"
+        {
+          "name": "Ranbir Kapoor",
+          "image": "https://i.pinimg.com/736x/79/3b/40/793b40296d5f91eb502c2a9a9f3a517d.jpg"
+        },
+        {
+          "name": "Anil Kapoor",
+          "image": "https://i.pinimg.com/1200x/14/51/98/1451984b59a6d2ddbbbdd5fea3fc0089.jpg"
+        },
+        {
+          "name": "Bobby Deol",
+          "image": "https://i.pinimg.com/736x/93/55/2d/93552dac9ac35513147431345330832d.jpg"
+        },
+        {
+          "name": "Rashmika Mandanna",
+          "image": "https://i.pinimg.com/1200x/c3/84/cd/c384cd9d9f83efb9a6ea2e93a5dd9f9a.jpg"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/736x/f5/12/69/f5126938c1e73a5a67174fa53df77382.jpg",
       "availableInLocations": [
@@ -807,9 +902,18 @@
       "releaseDate": "2023-11-12",
       "description": "Tiger and Zoya are framed as traitors and must go on a dangerous mission to clear their names.",
       "cast": [
-        "Salman Khan",
-        "Katrina Kaif",
-        "Emraan Hashmi"
+        {
+          "name": "Salman Khan",
+          "image": "https://i.pinimg.com/1200x/bc/a8/4b/bca84b9eea58d5104c608c0b321432a6.jpg"
+        },
+        {
+          "name": "Katrina Kaif",
+          "image": "https://i.pinimg.com/1200x/59/33/2b/59332b33361d860e63564a039563d43f.jpg"
+        },
+        {
+          "name": "Emraan Hashmi",
+          "image": "https://i.pinimg.com/736x/f8/d1/44/f8d1444821b4cd14de8b7d2b091c3d2e.jpg"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/736x/ac/d4/34/acd43473d966386daa5e87ae477b3f16.jpg",
       "availableInLocations": [
@@ -905,9 +1009,18 @@
       "releaseDate": "2022-06-03",
       "description": "A retired black-ops agent investigates a series of brutal murders connected to a drug syndicate.",
       "cast": [
-        "Kamal Haasan",
-        "Fahadh Faasil",
-        "Vijay Sethupathi"
+        {
+          "name": "Kamal Haasan",
+          "image": "https://i.pinimg.com/736x/72/cf/93/72cf93c25e481ddb2e0128106ef91e00.jpg"
+        },
+        {
+          "name": "Vijay Sethupathi",
+          "image": "https://i.pinimg.com/1200x/30/a4/f6/30a4f6559eb657efb4a9848cd57048d7.jpg"
+        },
+        {
+          "name": "Fahadh Faasil",
+          "image": "https://i.pinimg.com/736x/ac/e3/23/ace32361d7dafd451cc41660a2e870ba.jpg"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/1200x/e1/6d/f6/e16df60fcc3eab0e291c54bfaece748c.jpg",
       "availableInLocations": [
@@ -989,9 +1102,18 @@
       "releaseDate": "2023-12-22",
       "description": "The bond between two childhood friends is put to the test as they become powerful rivals in a fictional dystopian city.",
       "cast": [
-        "Prabhas",
-        "Prithviraj Sukumaran",
-        "Shruti Haasan"
+        {
+          "name": "Prabhas",
+          "image": "https://i.pinimg.com/736x/1c/73/d1/1c73d16086ab1ec18ff67e740b11069f.jpg"
+        },
+        {
+          "name": "Prithviraj Sukumaran",
+          "image": "https://i.pinimg.com/736x/85/c0/4a/85c04a40ba137cc897c1bccba105f970.jpg"
+        },
+        {
+          "name": "Shruti Haasan",
+          "image": "https://i.pinimg.com/736x/ba/a2/a3/baa2a3665c676798060021765a4203dc.jpg"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/736x/f8/14/bc/f814bc95b2e097babb86e664db2c4be7.jpg",
       "availableInLocations": [
@@ -999,7 +1121,7 @@
         "Mumbai",
         "Delhi",
         "Bengaluru",
-        "Bhadrak"
+        "Bhubaneswar"
       ],
       "showtimes": [
         {
@@ -1054,7 +1176,7 @@
           "availableSeats": 120
         },
         {
-          "location": "Bhadrak",
+          "location": "Bhubaneswar",
           "theater": "Brindaban Talkies",
           "timings": [
             "1:00 PM",
@@ -1083,9 +1205,18 @@
       "releaseDate": "2023-12-21",
       "description": "A group of friends uses the illegal 'Donkey Flight' route to immigrate to London.",
       "cast": [
-        "Shah Rukh Khan",
-        "Taapsee Pannu",
-        "Vicky Kaushal"
+        {
+          "name": "Shah Rukh Khan",
+          "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+        },
+        {
+          "name": "Taapsee Pannu",
+          "image": "https://i.pinimg.com/1200x/e9/d1/b9/e9d1b9d99517718de2da840402687e33.jpg"
+        },
+        {
+          "name": "Vicky Kaushal",
+          "image": "https://i.pinimg.com/736x/61/b3/35/61b3352219f8311fe9167605f3d184c0.jpg"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/1200x/1a/cf/65/1acf65c716e8b620b86bacd4c015e5dd.jpg",
       "availableInLocations": [
@@ -1164,8 +1295,14 @@
       "releaseDate": "2024-04-11",
       "description": "The golden era of Indian football (1952–1962), under the guidance of coach Syed Abdul Rahim.",
       "cast": [
-        "Ajay Devgn",
-        "Priyamani"
+        {
+          "name": "Ajay Devgn",
+          "image": "https://i.pinimg.com/1200x/b4/bd/99/b4bd993cc5925116416cf76b06bdfc7f.jpg"
+        },
+        {
+          "name": "Priyamani",
+          "image": "https://i.pinimg.com/736x/ed/7b/7b/ed7b7bae2f1b85ff93b440c88be525a9.jpg"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/736x/98/b9/75/98b975c7fada2c7c3ef27b33515ba484.jpg",
       "availableInLocations": [
@@ -1246,8 +1383,14 @@
       "releaseDate": "2024-03-28",
       "description": "An Indian migrant worker is stranded in the Saudi Arabian desert and struggles for survival.",
       "cast": [
-        "Prithviraj Sukumaran",
-        "Amala Paul"
+        {
+          "name": "Prithviraj Sukumaran",
+          "image": "https://i.pinimg.com/736x/85/c0/4a/85c04a40ba137cc897c1bccba105f970.jpg"
+        },
+        {
+          "name": "Amala Paul",
+          "image": "https://i.pinimg.com/1200x/51/5b/6f/515b6f7cd8c5a90d0a9e8bb85371464e.jpg"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/736x/aa/35/a9/aa35a9e1ea9d1226fee687772ad76c5a.jpg",
       "availableInLocations": [
@@ -1324,15 +1467,21 @@
       "releaseDate": "2023-09-28",
       "description": "An emotionally intense thriller about an uncle's protective love for his niece after a traumatic event.",
       "cast": [
-        "Siddharth",
-        "Sahashritha"
+        {
+          "name": "Siddharth",
+          "image": "https://images.filmibeat.com/ph-big/2024/09/siddharth-tamil-actor-family-net-worth-and-lifestyle1726558855_0.jpg"
+        },
+        {
+          "name": "Sahasra Shree",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIt_yBHiR4DcjF4VJmtdz22eu92B-LsGQBlkakEzLi_6UUZwx71leQmxMeE-0WmxcDyC0hUGevVu1paDnU23s5OcUWMWa4dWvUPsxBYg&s=10"
+        }
       ],
       "posterUrl": "https://i.pinimg.com/736x/96/9f/2c/969f2cf082636c7872c8c90b66d5add1.jpg",
       "availableInLocations": [
         "Chennai",
         "Hyderabad",
         "Pune",
-        "Bhadrak"
+        "Bhubaneswar"
       ],
       "showtimes": [
         {
@@ -1374,7 +1523,7 @@
           "availableSeats": 145
         },
         {
-          "location": "Bhadrak",
+          "location": "Bhubaneswar",
           "theater": "Jayashree Talkies",
           "timings": [
             "11:30 AM",
@@ -1411,7 +1560,7 @@
       "logo": "https://assets-in.bmscdn.com/m6/images/common-modules/regions/pune.png"
     },
     {
-      "city": "Bhadrak",
+      "city": "Bhubaneswar",
       "logo": "https://assets-in.bmscdn.com/m6/images/common-modules/regions/kolk.png"
     },
     {
