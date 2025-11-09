@@ -10,7 +10,7 @@ export function useUserCity() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const { user } = useAuth();
-
+  const token = import.meta.env.VITE_IPINFO_TOKEN;
   useEffect(() => {
     if (!user) {
       return;
@@ -18,7 +18,7 @@ export function useUserCity() {
     async function getCity() {
       setLoading(true);
       try {
-        const res = await fetch(`https://ipinfo.io/json?token=e84bafc467f161`);
+        const res = await fetch(`https://ipinfo.io/json?token=${token}`);
         const data = await res.json();
         setCurrentUserCity(data.city);
         localStorage.setItem("currentCity", data.city);
