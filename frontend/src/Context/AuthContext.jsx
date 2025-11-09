@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { toast } from "sonner";
 const AuthContext = createContext(null);
 
 export const AuthProvider = ({ children }) => {
@@ -22,6 +23,8 @@ export const AuthProvider = ({ children }) => {
   };
 
   const createUser = async ({ formData }) => {
+    console.log(formData);
+    
     try {
       const registerData = {
         email: formData.email,
@@ -29,12 +32,16 @@ export const AuthProvider = ({ children }) => {
         password: formData.password,
       };
 
+      console.log({ formData });
+
       const response = await axios.post(
         "http://localhost:5000/register",
         registerData
       );
 
       const { accessToken, user } = response.data;
+      console.log({ accessToken });
+
       login(user, accessToken);
       setUser(user);
       toast.success("User Registered Successfully!");
@@ -43,8 +50,6 @@ export const AuthProvider = ({ children }) => {
       toast.error(
         err.response?.data || "Registration failed. Please try again."
       );
-    } finally {
-      setLoading(false);
     }
   };
 
@@ -56,7 +61,9 @@ export const AuthProvider = ({ children }) => {
   };
 
   return (
-    <AuthContext.Provider value={{ user, setUser, token, login, logout, createUser }}>
+    <AuthContext.Provider
+      value={{ user, setUser, token, login, logout, createUser }}
+    >
       {children}
     </AuthContext.Provider>
   );

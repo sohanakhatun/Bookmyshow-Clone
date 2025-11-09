@@ -19,8 +19,8 @@ import {
   Edit,
 } from "lucide-react";
 
-import MyEvents from "../Events/MyEvents";
-import LikedEvents from "../Events/LikedEvents";
+import MyMovies from "../Movies/MyMovies";
+import LikedMovies from "../Movies/LikedMovies";
 import EditProfile from "./EditProfile";
 import { useUserCity } from "../../hooks/useLocation";
 
@@ -80,21 +80,21 @@ const Dashboard = () => {
 
           {/* Main Content */}
           <main className="lg:col-span-9">
-            <Tabs defaultValue="yourEvents" className="w-full">
+            <Tabs defaultValue="yourMovies" className="w-full">
               <TabsList className="grid w-full grid-cols-3 mb-6">
                 <TabsTrigger
-                  value="yourEvents"
+                  value="yourMovies"
                   className="gap-2 cursor-pointer"
                 >
                   <CalendarDays className="w-4 h-4" />
-                  <span className="hidden sm:inline">Your Events</span>
+                  <span className="hidden sm:inline">Your Movies</span>
                 </TabsTrigger>
                 <TabsTrigger
-                  value="likedEvents"
+                  value="likedMovies"
                   className="gap-2 cursor-pointer"
                 >
                   <Heart className="w-4 h-4" />
-                  <span className="hidden sm:inline">Liked Events</span>
+                  <span className="hidden sm:inline">Liked Movies</span>
                 </TabsTrigger>
                 <TabsTrigger value="profile" className="gap-2 cursor-pointer">
                   <User className="w-4 h-4" />
@@ -102,26 +102,26 @@ const Dashboard = () => {
                 </TabsTrigger>
               </TabsList>
 
-              {/* My Events Tab */}
-              <TabsContent value="yourEvents">
+              {/* My Movies Tab */}
+              <TabsContent value="yourMovies">
                 <Card>
                   <CardHeader>
-                    <CardTitle>Your Events</CardTitle>
+                    <CardTitle>Your Movies</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <MyEvents />
+                    <MyMovies />
                   </CardContent>
                 </Card>
               </TabsContent>
 
-              {/* Liked Events Tab */}
-              <TabsContent value="likedEvents">
+              {/* Liked Movies Tab */}
+              <TabsContent value="likedMovies">
                 <Card>
                   <CardHeader>
-                    <CardTitle>Liked Events</CardTitle>
+                    <CardTitle>Liked Movies</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <LikedEvents />
+                    <LikedMovies />
                   </CardContent>
                 </Card>
               </TabsContent>
@@ -200,7 +200,7 @@ const Dashboard = () => {
                             0
                           </div>
                           <p className="text-sm text-muted-foreground mt-1">
-                            Events Created
+                            Movies Created
                           </p>
                         </CardContent>
                       </Card>
@@ -210,17 +210,17 @@ const Dashboard = () => {
                             0
                           </div>
                           <p className="text-sm text-muted-foreground mt-1">
-                            Events Attended
+                            Movies Attended
                           </p>
                         </CardContent>
                       </Card>
                       <Card>
                         <CardContent className="pt-6 text-center">
                           <div className="text-3xl font-bold text-primary">
-                            0
+                            {user.likedMovies?.length}
                           </div>
                           <p className="text-sm text-muted-foreground mt-1">
-                            Liked Events
+                            Liked Movies
                           </p>
                         </CardContent>
                       </Card>

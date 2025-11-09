@@ -14,13 +14,561 @@
     },
     {
       "email": "sohanakhatun162@gmail.com",
-      "password": "$2a$10$A9qWX.L0LbBu32zCLGqSiON0DTBgPlEgcjQtKcNiqbaZD/LwX/OQO",
+      "password": "$2a$10$YUqH0iYzNcEHwrOXU3xt4OxQuRX2o7HOufqV083T9Vs/5YLjs7IU6",
       "name": "Sohana Khatun",
-      "id": 1762064169970
+      "id": 1762064169970,
+      "likedMovies": [
+        {
+          "0": {
+            "id": 1,
+            "title": "Jawaan",
+            "genre": [
+              "Action",
+              "Thriller"
+            ],
+            "language": [
+              "Hindi",
+              "Tamil",
+              "Telugu"
+            ],
+            "rating": 8.5,
+            "duration": "2h 45m",
+            "releaseDate": "2023-09-07",
+            "description": "A man driven by personal vengeance fights corruption and injustice with a team of skilled women.",
+            "cast": [
+              {
+                "name": "Shah Rukh Khan",
+                "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+              },
+              {
+                "name": "Nayanthara",
+                "image": "https://i.pinimg.com/1200x/78/2a/f2/782af270a8cbc37174928a3754654fc4.jpg"
+              },
+              {
+                "name": "Vijay Sethupathi",
+                "image": "https://i.pinimg.com/1200x/30/a4/f6/30a4f6559eb657efb4a9848cd57048d7.jpg"
+              }
+            ],
+            "posterUrl": "https://i.pinimg.com/1200x/8a/0d/98/8a0d987eaac06af3a51caf79417d0246.jpg",
+            "landscapeUrl": "https://i.pinimg.com/736x/c4/d9/cc/c4d9cc183a95adc597947342c2bc6b31.jpg",
+            "availableInLocations": [
+              "Mumbai",
+              "Delhi",
+              "Hyderabad",
+              "Chennai",
+              "Pune"
+            ],
+            "showtimes": [
+              {
+                "location": "Mumbai",
+                "theater": "PVR Infinity Mall",
+                "timings": [
+                  "10:00 AM",
+                  "1:30 PM",
+                  "5:00 PM",
+                  "8:30 PM"
+                ],
+                "ticketPrice": 350,
+                "totalSeats": 150,
+                "availableSeats": 97
+              },
+              {
+                "location": "Delhi",
+                "theater": "INOX Select Citywalk",
+                "timings": [
+                  "9:45 AM",
+                  "2:00 PM",
+                  "6:15 PM",
+                  "9:30 PM"
+                ],
+                "ticketPrice": 320,
+                "totalSeats": 150,
+                "availableSeats": 122
+              },
+              {
+                "location": "Hyderabad",
+                "theater": "AMB Cinemas",
+                "timings": [
+                  "11:00 AM",
+                  "3:00 PM",
+                  "7:00 PM"
+                ],
+                "ticketPrice": 310,
+                "totalSeats": 150,
+                "availableSeats": 85
+              },
+              {
+                "location": "Chennai",
+                "theater": "SPI Sathyam",
+                "timings": [
+                  "10:30 AM",
+                  "2:30 PM",
+                  "6:30 PM",
+                  "9:45 PM"
+                ],
+                "ticketPrice": 290,
+                "totalSeats": 150,
+                "availableSeats": 140
+              },
+              {
+                "location": "Pune",
+                "theater": "E-Square University Road",
+                "timings": [
+                  "12:00 PM",
+                  "3:45 PM",
+                  "7:15 PM",
+                  "10:00 PM"
+                ],
+                "ticketPrice": 270,
+                "totalSeats": 150,
+                "availableSeats": 100
+              }
+            ]
+          },
+          "id": 7,
+          "title": "Pushpa: The Rise",
+          "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+          ],
+          "language": [
+            "Telugu",
+            "Hindi",
+            "Tamil",
+            "Malayalam",
+            "Kannada"
+          ],
+          "rating": 7.6,
+          "duration": "2h 59m",
+          "releaseDate": "2021-12-17",
+          "description": "The rise of a daily wage labourer into a red sanders smuggler in the forests of Seshachalam.",
+          "cast": [
+            {
+              "name": "Allu Arjun",
+              "image": "https://i.pinimg.com/736x/32/ca/2a/32ca2a19227db1ed21d7373789941a06.jpg"
+            },
+            {
+              "name": "Rashmika Mandanna",
+              "image": "https://i.pinimg.com/1200x/c3/84/cd/c384cd9d9f83efb9a6ea2e93a5dd9f9a.jpg"
+            },
+            {
+              "name": "Fahadh Faasil",
+              "image": "https://i.pinimg.com/736x/ac/e3/23/ace32361d7dafd451cc41660a2e870ba.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/1200x/a9/74/c1/a974c1c19644d39d2b43cc799223279c.jpg",
+          "landscapeUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202404/allu-arjun-072241749-16x9_0.jpg?VersionId=K_n8YW.C2E4R3xdcdF74eB_BV9dtRyed&size=690:388",
+          "availableInLocations": [
+            "Hyderabad",
+            "Chennai",
+            "Pune",
+            "Bhubaneswar"
+          ],
+          "showtimes": [
+            {
+              "location": "Hyderabad",
+              "theater": "PVR Forum Mall",
+              "timings": [
+                "10:00 AM",
+                "1:45 PM",
+                "5:30 PM",
+                "9:15 PM"
+              ],
+              "ticketPrice": 280,
+              "totalSeats": 150,
+              "availableSeats": 92
+            },
+            {
+              "location": "Chennai",
+              "theater": "SPI Sathyam",
+              "timings": [
+                "11:30 AM",
+                "3:15 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 112
+            },
+            {
+              "location": "Pune",
+              "theater": "E-Square University Road",
+              "timings": [
+                "10:30 AM",
+                "2:30 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 260,
+              "totalSeats": 150,
+              "availableSeats": 135
+            },
+            {
+              "location": "Bhubaneswar",
+              "theater": "Jayashree Talkies",
+              "timings": [
+                "12:00 PM",
+                "3:45 PM",
+                "7:30 PM"
+              ],
+              "ticketPrice": 220,
+              "totalSeats": 150,
+              "availableSeats": 80
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Gadar 2",
+          "genre": [
+            "Action",
+            "Drama"
+          ],
+          "language": [
+            "Hindi"
+          ],
+          "rating": 7.3,
+          "duration": "2h 50m",
+          "releaseDate": "2023-08-11",
+          "description": "Tara Singh returns to Pakistan to rescue his captured son.",
+          "cast": [
+            {
+              "name": "Sunny Deol",
+              "image": "https://i.pinimg.com/736x/fb/d3/9e/fbd39e69d560abac278326e0dc3ba052.jpg"
+            },
+            {
+              "name": "Ameesha Patel",
+              "image": "https://i.pinimg.com/736x/2b/34/6e/2b346e2ef1a4f980c87ab3659fcd85ca.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/1200x/9c/90/2c/9c902cc0dd2b7dcd2d972f2daabf307f.jpg",
+          "landscapeUrl": "https://m.media-amazon.com/images/I/71JHVx0wVUL._AC_UF894,1000_QL80_.jpg",
+          "availableInLocations": [
+            "Delhi",
+            "Mumbai",
+            "Kolkata",
+            "Pune",
+            "Bhubaneswar"
+          ],
+          "showtimes": [
+            {
+              "location": "Delhi",
+              "theater": "Carnival Cinemas Rohini",
+              "timings": [
+                "10:00 AM",
+                "2:00 PM",
+                "6:00 PM",
+                "9:15 PM"
+              ],
+              "ticketPrice": 280,
+              "totalSeats": 150,
+              "availableSeats": 95
+            },
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:45 PM"
+              ],
+              "ticketPrice": 320,
+              "totalSeats": 150,
+              "availableSeats": 125
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "10:15 AM",
+                "1:45 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 260,
+              "totalSeats": 150,
+              "availableSeats": 118
+            },
+            {
+              "location": "Pune",
+              "theater": "PVR Phoenix Mall",
+              "timings": [
+                "12:30 PM",
+                "3:30 PM",
+                "6:45 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 100
+            },
+            {
+              "location": "Bhubaneswar",
+              "theater": "Jayashree Talkies",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 200,
+              "totalSeats": 150,
+              "availableSeats": 90
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Leo",
+          "genre": [
+            "Action",
+            "Drama"
+          ],
+          "language": [
+            "Tamil",
+            "Telugu",
+            "Hindi"
+          ],
+          "rating": 7.9,
+          "duration": "2h 43m",
+          "releaseDate": "2023-10-19",
+          "description": "A café owner’s dark past resurfaces when he is forced into violence.",
+          "cast": [
+            {
+              "name": "Vijay",
+              "image": "https://m.media-amazon.com/images/I/61Daf205q6L._AC_UF894,1000_QL80_.jpg"
+            },
+            {
+              "name": "Trisha Krishnan",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Trisha_Krishnan_at_PS1_pre_release_event_%283%29_%28cropped%29.jpg"
+            },
+            {
+              "name": "Sanjay Dutt",
+              "image": "https://media.assettype.com/outlookindia/2025-01-06/ughlko40/1.png?w=452&auto=format%2Ccompress&fit=max&format=webp&dpr=1.0"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/1a/85/fc/1a85fc08c07154c0e942e771a1d758c6.jpg",
+          "landscapeUrl": "https://i.ytimg.com/vi/Po3jStA673E/maxresdefault.jpg",
+          "availableInLocations": [
+            "Chennai",
+            "Hyderabad",
+            "Bengaluru",
+            "Pune",
+            "Bhubaneswar"
+          ],
+          "showtimes": [
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "10:00 AM",
+                "1:30 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 260,
+              "totalSeats": 150,
+              "availableSeats": 125
+            },
+            {
+              "location": "Hyderabad",
+              "theater": "PVR Forum Mall",
+              "timings": [
+                "11:00 AM",
+                "2:45 PM",
+                "6:00 PM",
+                "9:15 PM"
+              ],
+              "ticketPrice": 290,
+              "totalSeats": 150,
+              "availableSeats": 108
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "INOX Garuda Mall",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:45 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 75
+            },
+            {
+              "location": "Pune",
+              "theater": "City Pride Kothrud",
+              "timings": [
+                "9:15 AM",
+                "12:45 PM",
+                "4:15 PM",
+                "7:45 PM"
+              ],
+              "ticketPrice": 280,
+              "totalSeats": 150,
+              "availableSeats": 140
+            },
+            {
+              "location": "Bhubaneswar",
+              "theater": "Brindaban Talkies",
+              "timings": [
+                "10:00 AM",
+                "1:30 PM",
+                "5:00 PM",
+                "8:30 PM"
+              ],
+              "ticketPrice": 210,
+              "totalSeats": 150,
+              "availableSeats": 88
+            },
+            {
+              "location": "Bhubaneswar",
+              "theater": "Ravi Talkies",
+              "timings": [
+                "11:00 AM",
+                "1:30 PM",
+                "5:00 PM",
+                "8:30 PM"
+              ],
+              "ticketPrice": 240,
+              "totalSeats": 150,
+              "availableSeats": 80
+            },
+            {
+              "location": "Bhubaneswar",
+              "theater": "Inox",
+              "timings": [
+                "12:00 AM",
+                "1:30 PM",
+                "5:00 PM",
+                "8:30 PM"
+              ],
+              "ticketPrice": 200,
+              "totalSeats": 150,
+              "availableSeats": 18
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Animal",
+          "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+          ],
+          "language": [
+            "Hindi",
+            "Telugu",
+            "Tamil",
+            "Kannada",
+            "Malayalam"
+          ],
+          "rating": 6.3,
+          "duration": "3h 21m",
+          "releaseDate": "2023-12-01",
+          "description": "A son's obsessive devotion to his father drives him to a path of extreme violence and conflict.",
+          "cast": [
+            {
+              "name": "Ranbir Kapoor",
+              "image": "https://i.pinimg.com/736x/79/3b/40/793b40296d5f91eb502c2a9a9f3a517d.jpg"
+            },
+            {
+              "name": "Anil Kapoor",
+              "image": "https://i.pinimg.com/1200x/14/51/98/1451984b59a6d2ddbbbdd5fea3fc0089.jpg"
+            },
+            {
+              "name": "Bobby Deol",
+              "image": "https://i.pinimg.com/736x/93/55/2d/93552dac9ac35513147431345330832d.jpg"
+            },
+            {
+              "name": "Rashmika Mandanna",
+              "image": "https://i.pinimg.com/1200x/c3/84/cd/c384cd9d9f83efb9a6ea2e93a5dd9f9a.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/f5/12/69/f5126938c1e73a5a67174fa53df77382.jpg",
+          "landscapeUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2019/09/Animal-cover-image2.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Hyderabad",
+            "Bengaluru",
+            "Pune"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "PVR Infinity Mall",
+              "timings": [
+                "11:00 AM",
+                "3:00 PM",
+                "7:00 PM",
+                "10:45 PM"
+              ],
+              "ticketPrice": 360,
+              "totalSeats": 150,
+              "availableSeats": 85
+            },
+            {
+              "location": "Delhi",
+              "theater": "INOX Select Citywalk",
+              "timings": [
+                "9:30 AM",
+                "1:30 PM",
+                "5:30 PM",
+                "9:45 PM"
+              ],
+              "ticketPrice": 340,
+              "totalSeats": 150,
+              "availableSeats": 100
+            },
+            {
+              "location": "Hyderabad",
+              "theater": "AMB Cinemas",
+              "timings": [
+                "10:15 AM",
+                "2:15 PM",
+                "6:15 PM",
+                "10:15 PM"
+              ],
+              "ticketPrice": 320,
+              "totalSeats": 150,
+              "availableSeats": 95
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "INOX Garuda Mall",
+              "timings": [
+                "12:30 PM",
+                "4:30 PM",
+                "8:30 PM"
+              ],
+              "ticketPrice": 320,
+              "totalSeats": 150,
+              "availableSeats": 115
+            },
+            {
+              "location": "Pune",
+              "theater": "City Pride Kothrud",
+              "timings": [
+                "10:00 AM",
+                "2:00 PM",
+                "6:00 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 290,
+              "totalSeats": 150,
+              "availableSeats": 130
+            }
+          ]
+        }
+      ]
     },
     {
       "email": "sohanakhatun465@gmail.com",
-      "password": "$2a$10$781ZIh9G35e3B0Fziu6ltebYeWU0NsC74qWuBc6HwCj05DnDRsG6y",
+      "password": "$2a$10$XHmq5vF54ZyBFhhxAsNuj.adqGeo0sVY15Ckpg0Hx8.IDvAwNK632",
       "name": "Sohana Khatun",
       "id": 1762064169971,
       "username": "reginaphalange69",
@@ -61,6 +609,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/1200x/8a/0d/98/8a0d987eaac06af3a51caf79417d0246.jpg",
+      "landscapeUrl": "https://i.pinimg.com/736x/c4/d9/cc/c4d9cc183a95adc597947342c2bc6b31.jpg",
       "availableInLocations": [
         "Mumbai",
         "Delhi",
@@ -166,6 +715,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/736x/1a/85/fc/1a85fc08c07154c0e942e771a1d758c6.jpg",
+      "landscapeUrl": "https://i.ytimg.com/vi/Po3jStA673E/maxresdefault.jpg",
       "availableInLocations": [
         "Chennai",
         "Hyderabad",
@@ -292,6 +842,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/1200x/9c/90/2c/9c902cc0dd2b7dcd2d972f2daabf307f.jpg",
+      "landscapeUrl": "https://m.media-amazon.com/images/I/71JHVx0wVUL._AC_UF894,1000_QL80_.jpg",
       "availableInLocations": [
         "Delhi",
         "Mumbai",
@@ -377,7 +928,7 @@
         "Telugu",
         "Hindi"
       ],
-      "rating": 9.0,
+      "rating": 9,
       "duration": "3h 7m",
       "releaseDate": "2022-03-25",
       "description": "Two revolutionaries fight against the British Raj in 1920s India.",
@@ -396,6 +947,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/736x/e5/21/52/e52152364dc8fb2b25e3dadb188af09f.jpg",
+      "landscapeUrl": "https://wallpapers.com/images/hd/rrr-movie-trailer-poster-u79atg08s19esbf6.jpg",
       "availableInLocations": [
         "Hyderabad",
         "Bengaluru",
@@ -499,6 +1051,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/736x/e4/be/a1/e4bea11b766f0a9c91d8c6217c16fff4.jpg",
+      "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00342025-uaefrguxyg-landscape.jpg",
       "availableInLocations": [
         "Bengaluru",
         "Chennai",
@@ -586,7 +1139,7 @@
         "Tamil",
         "Telugu"
       ],
-      "rating": 7.0,
+      "rating": 7,
       "duration": "2h 26m",
       "releaseDate": "2023-01-25",
       "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
@@ -605,6 +1158,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+      "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
       "availableInLocations": [
         "Mumbai",
         "Delhi",
@@ -713,6 +1267,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/1200x/a9/74/c1/a974c1c19644d39d2b43cc799223279c.jpg",
+      "landscapeUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202404/allu-arjun-072241749-16x9_0.jpg?VersionId=K_n8YW.C2E4R3xdcdF74eB_BV9dtRyed&size=690:388",
       "availableInLocations": [
         "Hyderabad",
         "Chennai",
@@ -810,6 +1365,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/736x/f5/12/69/f5126938c1e73a5a67174fa53df77382.jpg",
+      "landscapeUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2019/09/Animal-cover-image2.jpg",
       "availableInLocations": [
         "Mumbai",
         "Delhi",
@@ -916,6 +1472,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/736x/ac/d4/34/acd43473d966386daa5e87ae477b3f16.jpg",
+      "landscapeUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2023/11/Tiger-3-3-9.jpg",
       "availableInLocations": [
         "Mumbai",
         "Delhi",
@@ -1023,6 +1580,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/1200x/e1/6d/f6/e16df60fcc3eab0e291c54bfaece748c.jpg",
+      "landscapeUrl": "https://wallpapercave.com/wp/wp11157485.jpg",
       "availableInLocations": [
         "Chennai",
         "Bengaluru",
@@ -1116,6 +1674,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/736x/f8/14/bc/f814bc95b2e097babb86e664db2c4be7.jpg",
+      "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00301886-zyufadpbqy-landscape.jpg",
       "availableInLocations": [
         "Hyderabad",
         "Mumbai",
@@ -1219,6 +1778,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/1200x/1a/cf/65/1acf65c716e8b620b86bacd4c015e5dd.jpg",
+      "landscapeUrl": "https://www.amadorvalleytoday.org/wp-content/uploads/2024/01/Dunki-Movie-Poster.png",
       "availableInLocations": [
         "Delhi",
         "Mumbai",
@@ -1290,7 +1850,7 @@
       "language": [
         "Hindi"
       ],
-      "rating": 8.0,
+      "rating": 8,
       "duration": "3h 1m",
       "releaseDate": "2024-04-11",
       "description": "The golden era of Indian football (1952–1962), under the guidance of coach Syed Abdul Rahim.",
@@ -1305,6 +1865,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/736x/98/b9/75/98b975c7fada2c7c3ef27b33515ba484.jpg",
+      "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00109952-bcafzaqmwx-landscape.jpg",
       "availableInLocations": [
         "Mumbai",
         "Delhi",
@@ -1393,6 +1954,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/736x/aa/35/a9/aa35a9e1ea9d1226fee687772ad76c5a.jpg",
+      "landscapeUrl": "https://wallpapercave.com/wp/wp14338498.jpg",
       "availableInLocations": [
         "Chennai",
         "Bengaluru",
@@ -1477,6 +2039,7 @@
         }
       ],
       "posterUrl": "https://i.pinimg.com/736x/96/9f/2c/969f2cf082636c7872c8c90b66d5add1.jpg",
+      "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00370563-cezbvjfpkd-landscape.jpg",
       "availableInLocations": [
         "Chennai",
         "Hyderabad",

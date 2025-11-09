@@ -15,7 +15,7 @@ const MovieDetails = () => {
   const movie = movies.find((m) => m.id == id);
   const [cityShow, setCityShow] = useState([]);
 
-  useEffect(() => {    
+  useEffect(() => {
     setCityShow(() => {
       return movie?.showtimes.filter(
         (show) => show.location === currentUserCity
@@ -33,15 +33,19 @@ const MovieDetails = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground">
-      <div className="relative w-full h-[70vh] overflow-hidden">
-        <img
-          src={movie.posterUrl}
-          alt={movie.title}
-          className="w-full h-full object-cover object-center brightness-80"
-        />
-        <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/60 to-transparent" />
+      <div className="relative w-full h-[90vh] overflow-hidden">
+        <picture>
+          <source media="(max-width: 768px)" srcSet={movie.posterUrl} />
+          <source media="(min-width: 769px)" srcSet={movie.landscapeUrl} />
+          <img
+            src={movie.landscapeUrl}
+            alt={movie.title}
+            className="w-full h-full object-cover brightness-90"
+          />
+        </picture>
+        <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent" />
 
-        <div className="absolute bottom-10 left-10 md:left-20 text-white space-y-3 max-w-3xl">
+        <div className="absolute bottom-10 left-2 md:left-20 text-white space-y-3 max-w-3xl">
           <h1 className="text-4xl font-bold">{movie.title}</h1>
 
           <div className="flex flex-wrap items-center gap-3 text-sm opacity-90">
@@ -94,10 +98,10 @@ const MovieDetails = () => {
           </p>
         </div>
       </div>
-      <section className="py-10 px-6 md:px-16">
+      <section className="py-8 md:py-10 px-6 md:px-16">
         <h2 className="text-2xl font-semibold mb-6">Cast</h2>
 
-        <div className="flex gap-8 overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
+        <div className="flex gap-0 sm:gap-8 overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
           {movie.cast.map((actor) => (
             <div
               key={actor.name}
@@ -119,7 +123,7 @@ const MovieDetails = () => {
       </section>
 
       <Separator />
-      <section className="py-10 px-6 md:px-16">
+      <section className="py-8 md:py-10 px-6 md:px-16">
         <h2 className="text-2xl font-semibold mb-6">Showtimes</h2>
         {cityShow ? (
           <div className="space-y-6">

@@ -3,9 +3,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
-  DialogClose,
   DialogContent,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -15,6 +13,7 @@ import { useUserCity } from "../../hooks/useLocation";
 import { useState } from "react";
 import { useEffect } from "react";
 import { useMovieContext } from "../../Context/MovieContext";
+import { MapPin } from "lucide-react";
 const AllLocations = () => {
   const { currentUserCity, setCurrentUserCity } = useUserCity();
   const [allLocations, setAllLocations] = useState([]);
@@ -42,12 +41,16 @@ const AllLocations = () => {
         <>
           <Dialog>
             <DialogTrigger asChild>
-              <Button variant="outline">{currentUserCity}</Button>
+              <Button variant="outline">
+                <MapPin />
+                {currentUserCity}
+              </Button>
             </DialogTrigger>
             <DialogContent>
               <DialogHeader>
                 <DialogTitle>Change Location</DialogTitle>
               </DialogHeader>
+              <Separator />
               <div className="flex flex-wrap justify-center items-center gap-3">
                 {allLocations.map((location) => (
                   <button

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useAuth } from "../../Context/AuthContext";
-import EventsTab from "./EventsTab";
+import EventsTab from "./MoviesTab";
 
-const MyEvents = () => {
+const MyMovies = () => {
   const { user } = useAuth();
 
   const [events, setEvents] = useState([]);
@@ -13,8 +13,8 @@ const MyEvents = () => {
   const cancelledEvents = events.filter((e) => e.status === "cancelled");
 
   useEffect(() => {
-    if (user?.MyEvents) {
-      setEvents(user.MyEvents);
+    if (user?.MyMovies) {
+      setEvents(user.MyMovies);
     }
   }, [user]);
 
@@ -31,19 +31,25 @@ const MyEvents = () => {
                 : "border-transparent text-gray-600 hover:text-black"
             }`}
           >
-            {tab} 
+            {tab}
           </button>
         ))}
       </div>
 
       {/* Tab Content */}
       <div className="transition-all duration-300">
-        {activeTab === "upcoming" && <EventsTab list={upcomingEvents} activeTab={activeTab}/>}
-        {activeTab === "past" && <EventsTab list={pastEvents} activeTab={activeTab} />}
-        {activeTab === "cancelled" && <EventsTab list={cancelledEvents} activeTab={activeTab}/>}
+        {activeTab === "upcoming" && (
+          <EventsTab list={upcomingEvents} activeTab={activeTab} />
+        )}
+        {activeTab === "past" && (
+          <EventsTab list={pastEvents} activeTab={activeTab} />
+        )}
+        {activeTab === "cancelled" && (
+          <EventsTab list={cancelledEvents} activeTab={activeTab} />
+        )}
       </div>
     </div>
   );
 };
 
-export default MyEvents;
+export default MyMovies;

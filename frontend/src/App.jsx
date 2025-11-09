@@ -58,7 +58,7 @@ function App() {
             />
 
             <Route path="/" element={<Home />} />
-            <Route path="/movies/:id" element={<MovieDetails/>}/>
+            <Route path="/movies/:id" element={<MovieDetails />} />
           </Routes>
           <Toaster
             position="top-center"
@@ -69,7 +69,7 @@ function App() {
               },
             }}
           />
-          <Footer/>
+          <Footer />
         </MovieProvider>
       </AuthProvider>
     </Router>
