@@ -38,8 +38,6 @@ const Register = () => {
       return;
     }
 
-    console.log(formData);
-    
     createUser(formData);
   };
 

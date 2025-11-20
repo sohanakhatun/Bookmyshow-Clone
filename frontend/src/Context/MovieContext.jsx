@@ -6,7 +6,9 @@ import React, {
   useCallback,
 } from "react";
 import { useUserCity } from "../hooks/useLocation";
-
+import { useAuth } from "./AuthContext";
+import axios from "axios";
+import { toast } from "sonner";
 
 const MovieContext = createContext(null);
 
@@ -17,6 +19,8 @@ export const MovieProvider = ({ children }) => {
   const [error, setError] = useState(null);
 
   const { currentUserCity } = useUserCity();
+  const { user, setUser } = useAuth();
+
   //  Fetch movies only once
   useEffect(() => {
     async function fetchMovies() {
@@ -57,9 +61,53 @@ export const MovieProvider = ({ children }) => {
     [originalMovieArray]
   );
 
+  const toggleLike = async (movie, liked) => {
+    try {
+      const token = localStorage.getItem("token");
+      const userId = user?.id;
+      let likedMoviePayload = user.likedMovies || [];
+
+      if (liked) {
+        likedMoviePayload = [...likedMoviePayload, movie];
+      } else {
+        likedMoviePayload = likedMoviePayload.filter(
+          (mov) => mov.id !== movie.id
+        );
+      }
+
+      const res = await axios.patch(
+        `http://localhost:5000/users/${userId}`,
+        { ...user, likedMovies: likedMoviePayload },
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+      localStorage.setItem("user", JSON.stringify(res.data));
+      setUser(res.data);
+
+      liked
+        ? toast.success("Added to liked movies")
+        : toast.success("Removed from liked movies");
+      movie.isLikedByUser = liked;
+    } catch (err) {
+      movie.isLikedByUser = !liked;
+      console.error("Error updating user:", err);
+      toast.err("Something went wrong!");
+    }
+  };
+
   return (
     <MovieContext.Provider
-      value={{ movies, loading, error, setCurrentLocationMovies , originalMovieArray }}
+      value={{
+        movies,
+        loading,
+        error,
+        toggleLike,
+        setCurrentLocationMovies,
+        originalMovieArray,
+      }}
     >
       {children}
     </MovieContext.Provider>

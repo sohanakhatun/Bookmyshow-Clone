@@ -193,17 +193,7 @@ const Dashboard = () => {
                     </div>
 
                     {/* Stats */}
-                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
-                      <Card>
-                        <CardContent className="pt-6 text-center">
-                          <div className="text-3xl font-bold text-primary">
-                            0
-                          </div>
-                          <p className="text-sm text-muted-foreground mt-1">
-                            Movies Created
-                          </p>
-                        </CardContent>
-                      </Card>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
                       <Card>
                         <CardContent className="pt-6 text-center">
                           <div className="text-3xl font-bold text-primary">
@@ -217,7 +207,7 @@ const Dashboard = () => {
                       <Card>
                         <CardContent className="pt-6 text-center">
                           <div className="text-3xl font-bold text-primary">
-                            {user.likedMovies?.length}
+                            {user.likedMovies ? user.likedMovies.length : 0}
                           </div>
                           <p className="text-sm text-muted-foreground mt-1">
                             Liked Movies

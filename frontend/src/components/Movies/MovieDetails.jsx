@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { useMovieContext } from "../../Context/MovieContext";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { CalendarDays, Clock, Star } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { useAuth } from "../../Context/AuthContext";
+import { toast } from "sonner";
 
 const MovieDetails = () => {
   const { id } = useParams();
@@ -14,14 +15,23 @@ const MovieDetails = () => {
   const currentUserCity = localStorage.getItem("currentCity");
   const movie = movies.find((m) => m.id == id);
   const [cityShow, setCityShow] = useState([]);
-
+  const navigate = useNavigate();
   useEffect(() => {
     setCityShow(() => {
       return movie?.showtimes.filter(
         (show) => show.location === currentUserCity
       );
     });
-  }, [movie]);
+  }, [movie, currentUserCity]);
+
+  function bookTicketsHandler() {
+    if (user) {
+      navigate("/book-tickets");
+    } else {
+      navigate("/login");
+      toast.info("Please login to continue");
+    }
+  }
 
   if (!movie) {
     return (
@@ -156,7 +166,9 @@ const MovieDetails = () => {
                       {theater.availableSeats}/{theater.totalSeats}
                     </span>
                   </p>
-                  <Button className="mt-2 md:mt-0">Book Tickets</Button>
+                  <Button className="mt-2 md:mt-0" onClick={bookTicketsHandler}>
+                    Book Tickets
+                  </Button>
                 </div>
               </div>
             ))}

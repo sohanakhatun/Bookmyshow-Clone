@@ -22,7 +22,7 @@ const Login = () => {
     e.preventDefault();
     setLoading(true);
 
-    try {
+    try {      
       const response = await axios.post(
         "http://localhost:5000/login",
         formData
@@ -33,8 +33,8 @@ const Login = () => {
       login(user, accessToken);
       navigate("/dashboard");
       toast.success("Login Successful");
-    } catch (err) {
-      toast.error("Login Failed, Invalid credentials, please try again");
+    } catch (err) {     
+      toast.error(err.response.data || "Login Failed, Invalid credentials, please try again");
     } finally {
       setLoading(false);
     }

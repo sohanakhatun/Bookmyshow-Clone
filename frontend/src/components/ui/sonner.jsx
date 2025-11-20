@@ -23,9 +23,9 @@ const Toaster = ({ ...props }) => {
         loading: <Loader2Icon className="size-4 animate-spin" />,
       }}
       style={{
-        "--normal-bg": "transparent",
+        "--normal-bg": "white",
         "--normal-text": "inherit",
-        "--normal-border": "transparent",
+        "--normal-border": "white",
       }}
       {...props}
     />

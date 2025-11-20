@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Card,
   CardHeader,
@@ -8,43 +8,38 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
-import axios from "axios";
-import { toast } from "sonner";
-
 import { Star, Clock, Languages, Heart } from "lucide-react";
+import { useMovieContext } from "../../Context/MovieContext";
 import { useAuth } from "../../Context/AuthContext";
+import { toast } from "sonner";
 
 const MovieCard = ({ movie }) => {
   const poster =
     movie.posterUrl || "https://via.placeholder.com/500x750?text=No+Image";
   const langs = (movie.language || []).join(" • ");
   const genres = (movie.genre || []).join(" • ");
+  let minPrice = Infinity;
 
-  const { user, setUser } = useAuth();
-  const likeMovie = async () => {
-    try {
-      const token = localStorage.getItem("token");
-      const userId = user?.id;
+  movie.showtimes.map((s) =>
+    s.ticketPrice < minPrice ? (minPrice = s.ticketPrice) : 0
+  );
 
-      const res = await axios.patch(
-        `http://localhost:5000/users/${userId}`,
-        { ...user, likedMovies: [...user.likedMovies, movie] },
-        {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        }
-      );
-      console.log(res.data);
+  const { toggleLike } = useMovieContext();
 
-      localStorage.setItem("user", JSON.stringify(res.data));
-      setUser(res.data);
-      toast.success("Added to liked movies");
-    } catch (err) {
-      console.error("❌ Error updating user:", err);
-      toast.err("Something went wrong!");
+  const { user } = useAuth();
+
+  let isLiked = false;
+  if (user) {
+    isLiked = user?.likedMovies?.find((mov) => mov.id === movie.id);
+  }
+  function likeMovieHandler() {
+    if (user) {
+      isLiked ? toggleLike(movie, false) : toggleLike(movie, true);
+    } else {
+      toast.info("Please login to continue");
     }
-  };
+  }
+
   return (
     <Card className="overflow-hidden hover:shadow-lg transition-shadow rounded-2xl pt-0 gap-3">
       <div className="relative aspect-2/3 w-full bg-zinc-100">
@@ -70,11 +65,11 @@ const MovieCard = ({ movie }) => {
           <Button
             onClick={(e) => {
               e.preventDefault();
-              likeMovie();
+              likeMovieHandler();
             }}
             variant="outline"
           >
-            <Heart />
+            {isLiked ? <Heart fill="red" stroke="0" /> : <Heart />}
           </Button>
         </div>
       </div>
@@ -101,7 +96,9 @@ const MovieCard = ({ movie }) => {
           {Array.isArray(movie.cast) && movie.cast.length > 0 && (
             <p className="mt-2 text-xs text-muted-foreground">
               <span className="font-medium text-foreground">Cast: </span>
-              <span className="line-clamp-1">{movie.cast.join(", ")}</span>
+              <span className="line-clamp-1">
+                {movie.cast.map((cast) => cast.name + "   ")}
+              </span>
             </p>
           )}
         </div>
@@ -110,13 +107,7 @@ const MovieCard = ({ movie }) => {
       <CardFooter className="flex items-center justify-between">
         <div className="text-sm">
           <span className="text-muted-foreground">From </span>
-          <span className="font-semibold">
-            ₹
-            {Math.min(
-              ...(movie.showtimes || []).map((s) => s.ticketPrice || 0),
-              0
-            ) || 0}
-          </span>
+          <span className="font-semibold">₹ {minPrice}</span>
         </div>
       </CardFooter>
     </Card>

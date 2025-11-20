@@ -575,6 +575,2326 @@
       "phoneNumber": "98765432393",
       "age": "24",
       "avatar": "https://i.pinimg.com/1200x/f0/a8/d6/f0a8d666c5d2fe8d572b0aac3ca4b186.jpg"
+    },
+    {
+      "email": "abcd@gmail.com",
+      "password": "$2a$10$hYfhvZgPURp5ZO7JGQWNd.1HSPST6nU9IzuUye19WPAcROI3B/DEu",
+      "name": "abcd@gmail.com",
+      "id": 1762064169972
+    },
+    {
+      "email": "sohana.k@gmail.com",
+      "password": "$2a$10$rIyAIYEN5XMyICWvHcqmXuD5lfpS2P6QJcSPqsCYmAs3ybze6qZya",
+      "name": "Sohana Khatun",
+      "id": 1762064169973,
+      "likedMovies": [
+        {
+          "id": 9,
+          "title": "Tiger 3",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 6.1,
+          "duration": "2h 36m",
+          "isLikedByUser": false,
+          "releaseDate": "2023-11-12",
+          "description": "Tiger and Zoya are framed as traitors and must go on a dangerous mission to clear their names.",
+          "cast": [
+            {
+              "name": "Salman Khan",
+              "image": "https://i.pinimg.com/1200x/bc/a8/4b/bca84b9eea58d5104c608c0b321432a6.jpg"
+            },
+            {
+              "name": "Katrina Kaif",
+              "image": "https://i.pinimg.com/1200x/59/33/2b/59332b33361d860e63564a039563d43f.jpg"
+            },
+            {
+              "name": "Emraan Hashmi",
+              "image": "https://i.pinimg.com/736x/f8/d1/44/f8d1444821b4cd14de8b7d2b091c3d2e.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/ac/d4/34/acd43473d966386daa5e87ae477b3f16.jpg",
+          "landscapeUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2023/11/Tiger-3-3-9.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Kolkata",
+            "Chennai",
+            "Hyderabad"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Malad",
+              "timings": [
+                "10:00 AM",
+                "1:45 PM",
+                "5:30 PM",
+                "9:15 PM"
+              ],
+              "ticketPrice": 350,
+              "totalSeats": 150,
+              "availableSeats": 105
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Pacific Mall",
+              "timings": [
+                "11:00 AM",
+                "2:45 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 320,
+              "totalSeats": 150,
+              "availableSeats": 88
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "10:30 AM",
+                "2:15 PM",
+                "6:00 PM",
+                "9:45 PM"
+              ],
+              "ticketPrice": 280,
+              "totalSeats": 150,
+              "availableSeats": 118
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "11:45 AM",
+                "3:30 PM",
+                "7:15 PM"
+              ],
+              "ticketPrice": 260,
+              "totalSeats": 150,
+              "availableSeats": 135
+            },
+            {
+              "location": "Hyderabad",
+              "theater": "AMB Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:30 PM",
+                "5:15 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 98
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pathaan",
+          "genre": [
+            "Action",
+            "Spy",
+            "Thriller"
+          ],
+          "language": [
+            "Hindi",
+            "Tamil",
+            "Telugu"
+          ],
+          "rating": 7,
+          "duration": "2h 26m",
+          "releaseDate": "2023-01-25",
+          "isLikedByUser": false,
+          "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
+          "cast": [
+            {
+              "name": "Shah Rukh Khan",
+              "image": "https://i.pinimg.com/736x/ff/a7/93/ffa793d1e8d71391eff401f5c5f40aeb.jpg"
+            },
+            {
+              "name": "Deepika Padukone",
+              "image": "https://i.pinimg.com/1200x/2b/49/62/2b4962c5e197f7a2fdda85919b531691.jpg"
+            },
+            {
+              "name": "John Abraham",
+              "image": "https://i.pinimg.com/736x/75/44/8f/75448ffb24b2d3af5001b3fc327e0f12.jpg"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/c4/b1/55/c4b155228f728d075e7f1f5190ec5f6e.jpg",
+          "landscapeUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00323848-xcctyvgbgd-landscape.jpg",
+          "availableInLocations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Kolkata",
+            "Chennai"
+          ],
+          "showtimes": [
+            {
+              "location": "Mumbai",
+              "theater": "Cinepolis Andheri",
+              "timings": [
+                "11:00 AM",
+                "2:30 PM",
+                "6:00 PM",
+                "9:30 PM"
+              ],
+              "ticketPrice": 330,
+              "totalSeats": 150,
+              "availableSeats": 110
+            },
+            {
+              "location": "Delhi",
+              "theater": "PVR Select Citywalk",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 90
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "PVR Orion Mall",
+              "timings": [
+                "12:00 PM",
+                "3:30 PM",
+                "7:00 PM"
+              ],
+              "ticketPrice": 310,
+              "totalSeats": 150,
+              "availableSeats": 70
+            },
+            {
+              "location": "Kolkata",
+              "theater": "INOX Quest Mall",
+              "timings": [
+                "11:30 AM",
+                "3:00 PM",
+                "6:30 PM",
+                "10:00 PM"
+              ],
+              "ticketPrice": 270,
+              "totalSeats": 150,
+              "availableSeats": 128
+            },
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "9:45 AM",
+                "1:15 PM",
+                "4:45 PM",
+                "8:15 PM"
+              ],
+              "ticketPrice": 250,
+              "totalSeats": 150,
+              "availableSeats": 145
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "email": "chandler@friends.com",
+      "password": "$2a$10$T8FXuiq69DAMvf/NuF8kjuzEymChsTg/212H1lUeYh2q/cJg.LQ2S",
+      "name": "Chandler Bing",
+      "id": 1762064169974,
+      "username": "chandlerbing",
+      "phoneNumber": "98765432393",
+      "age": "23",
+      "avatar": "https://pbs.twimg.com/media/FN-kpclWQAcgyWw.jpg",
+      "likedMovies": [
+        {
+          "id": 2,
+          "title": "Leo",
+          "genre": [
+            "Action",
+            "Drama"
+          ],
+          "language": [
+            "Tamil",
+            "Telugu",
+            "Hindi"
+          ],
+          "rating": 7.9,
+          "isLikedByUser": false,
+          "duration": "2h 43m",
+          "releaseDate": "2023-10-19",
+          "description": "A café owner’s dark past resurfaces when he is forced into violence.",
+          "cast": [
+            {
+              "name": "Vijay",
+              "image": "https://m.media-amazon.com/images/I/61Daf205q6L._AC_UF894,1000_QL80_.jpg"
+            },
+            {
+              "name": "Trisha Krishnan",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Trisha_Krishnan_at_PS1_pre_release_event_%283%29_%28cropped%29.jpg"
+            },
+            {
+              "name": "Sanjay Dutt",
+              "image": "https://media.assettype.com/outlookindia/2025-01-06/ughlko40/1.png?w=452&auto=format%2Ccompress&fit=max&format=webp&dpr=1.0"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/1a/85/fc/1a85fc08c07154c0e942e771a1d758c6.jpg",
+          "landscapeUrl": "https://i.ytimg.com/vi/Po3jStA673E/maxresdefault.jpg",
+          "availableInLocations": [
+            "Chennai",
+            "Hyderabad",
+            "Bengaluru",
+            "Pune",
+            "Bhubaneswar"
+          ],
+          "showtimes": [
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "10:00 AM",
+                "1:30 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 260,
+              "totalSeats": 150,
+              "availableSeats": 125
+            },
+            {
+              "location": "Hyderabad",
+              "theater": "PVR Forum Mall",
+              "timings": [
+                "11:00 AM",
+                "2:45 PM",
+                "6:00 PM",
+                "9:15 PM"
+              ],
+              "ticketPrice": 290,
+              "totalSeats": 150,
+              "availableSeats": 108
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "INOX Garuda Mall",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:45 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 75
+            },
+            {
+              "location": "Pune",
+              "theater": "City Pride Kothrud",
+              "timings": [
+                "9:15 AM",
+                "12:45 PM",
+                "4:15 PM",
+                "7:45 PM"
+              ],
+              "ticketPrice": 280,
+              "totalSeats": 150,
+              "availableSeats": 140
+            },
+            {
+              "location": "Bhubaneswar",
+              "theater": "Brindaban Talkies",
+              "timings": [
+                "10:00 AM",
+                "1:30 PM",
+                "5:00 PM",
+                "8:30 PM"
+              ],
+              "ticketPrice": 210,
+              "totalSeats": 150,
+              "availableSeats": 88
+            },
+            {
+              "location": "Bhubaneswar",
+              "theater": "Ravi Talkies",
+              "timings": [
+                "11:00 AM",
+                "1:30 PM",
+                "5:00 PM",
+                "8:30 PM"
+              ],
+              "ticketPrice": 240,
+              "totalSeats": 150,
+              "availableSeats": 80
+            },
+            {
+              "location": "Bhubaneswar",
+              "theater": "Inox",
+              "timings": [
+                "12:00 AM",
+                "1:30 PM",
+                "5:00 PM",
+                "8:30 PM"
+              ],
+              "ticketPrice": 200,
+              "totalSeats": 150,
+              "availableSeats": 18
+            }
+          ]
+        }
+      ]
     }
   ],
   "movies": [
@@ -591,6 +2911,7 @@
         "Telugu"
       ],
       "rating": 8.5,
+      "isLikedByUser": false,
       "duration": "2h 45m",
       "releaseDate": "2023-09-07",
       "description": "A man driven by personal vengeance fights corruption and injustice with a team of skilled women.",
@@ -697,6 +3018,7 @@
         "Hindi"
       ],
       "rating": 7.9,
+      "isLikedByUser": false,
       "duration": "2h 43m",
       "releaseDate": "2023-10-19",
       "description": "A café owner’s dark past resurfaces when he is forced into violence.",
@@ -829,6 +3151,7 @@
       ],
       "rating": 7.3,
       "duration": "2h 50m",
+      "isLikedByUser": false,
       "releaseDate": "2023-08-11",
       "description": "Tara Singh returns to Pakistan to rescue his captured son.",
       "cast": [
@@ -930,6 +3253,7 @@
       ],
       "rating": 9,
       "duration": "3h 7m",
+      "isLikedByUser": false,
       "releaseDate": "2022-03-25",
       "description": "Two revolutionaries fight against the British Raj in 1920s India.",
       "cast": [
@@ -1038,6 +3362,7 @@
       ],
       "rating": 8.8,
       "duration": "2h 30m",
+      "isLikedByUser": false,
       "releaseDate": "2022-09-30",
       "description": "A conflict erupts between humans and nature in a sacred forest village.",
       "cast": [
@@ -1142,6 +3467,7 @@
       "rating": 7,
       "duration": "2h 26m",
       "releaseDate": "2023-01-25",
+      "isLikedByUser": false,
       "description": "An exiled Indian spy races against time to take down a terror outfit before they unleash a devastating attack.",
       "cast": [
         {
@@ -1250,6 +3576,7 @@
       ],
       "rating": 7.6,
       "duration": "2h 59m",
+      "isLikedByUser": false,
       "releaseDate": "2021-12-17",
       "description": "The rise of a daily wage labourer into a red sanders smuggler in the forests of Seshachalam.",
       "cast": [
@@ -1344,6 +3671,7 @@
       ],
       "rating": 6.3,
       "duration": "3h 21m",
+      "isLikedByUser": false,
       "releaseDate": "2023-12-01",
       "description": "A son's obsessive devotion to his father drives him to a path of extreme violence and conflict.",
       "cast": [
@@ -1455,6 +3783,7 @@
       ],
       "rating": 6.1,
       "duration": "2h 36m",
+      "isLikedByUser": false,
       "releaseDate": "2023-11-12",
       "description": "Tiger and Zoya are framed as traitors and must go on a dangerous mission to clear their names.",
       "cast": [
@@ -1563,6 +3892,7 @@
       ],
       "rating": 8.3,
       "duration": "2h 55m",
+      "isLikedByUser": false,
       "releaseDate": "2022-06-03",
       "description": "A retired black-ops agent investigates a series of brutal murders connected to a drug syndicate.",
       "cast": [
@@ -1657,6 +3987,7 @@
       ],
       "rating": 6.6,
       "duration": "2h 55m",
+      "isLikedByUser": false,
       "releaseDate": "2023-12-22",
       "description": "The bond between two childhood friends is put to the test as they become powerful rivals in a fictional dystopian city.",
       "cast": [
@@ -1761,6 +4092,7 @@
       ],
       "rating": 7.3,
       "duration": "2h 41m",
+      "isLikedByUser": false,
       "releaseDate": "2023-12-21",
       "description": "A group of friends uses the illegal 'Donkey Flight' route to immigrate to London.",
       "cast": [
@@ -1852,6 +4184,7 @@
       ],
       "rating": 8,
       "duration": "3h 1m",
+      "isLikedByUser": false,
       "releaseDate": "2024-04-11",
       "description": "The golden era of Indian football (1952–1962), under the guidance of coach Syed Abdul Rahim.",
       "cast": [
@@ -1940,6 +4273,7 @@
         "Kannada"
       ],
       "rating": 8.1,
+      "isLikedByUser": false,
       "duration": "2h 37m",
       "releaseDate": "2024-03-28",
       "description": "An Indian migrant worker is stranded in the Saudi Arabian desert and struggles for survival.",
@@ -2026,6 +4360,7 @@
       ],
       "rating": 8.3,
       "duration": "2h 3m",
+      "isLikedByUser": false,
       "releaseDate": "2023-09-28",
       "description": "An emotionally intense thriller about an uncle's protective love for his niece after a traumatic event.",
       "cast": [

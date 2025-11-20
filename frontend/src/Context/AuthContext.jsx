@@ -22,26 +22,19 @@ export const AuthProvider = ({ children }) => {
     localStorage.setItem("token", accessToken);
   };
 
-  const createUser = async ({ formData }) => {
-    console.log(formData);
-    
+  const createUser = async (formData) => {
     try {
       const registerData = {
         email: formData.email,
         name: formData.name,
         password: formData.password,
       };
-
-      console.log({ formData });
-
       const response = await axios.post(
         "http://localhost:5000/register",
         registerData
       );
 
       const { accessToken, user } = response.data;
-      console.log({ accessToken });
-
       login(user, accessToken);
       setUser(user);
       toast.success("User Registered Successfully!");
