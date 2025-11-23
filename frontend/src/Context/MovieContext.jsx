@@ -14,10 +14,11 @@ const MovieContext = createContext(null);
 
 export const MovieProvider = ({ children }) => {
   const [movies, setMovies] = useState([]);
+  const [movieSearchResults, setMovieSearchResults] = useState([]);
   const [originalMovieArray, setOriginalMovieArray] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-
+ const [query, setQuery] = useState("");
   const { currentUserCity } = useUserCity();
   const { user, setUser } = useAuth();
 
@@ -107,6 +108,10 @@ export const MovieProvider = ({ children }) => {
         toggleLike,
         setCurrentLocationMovies,
         originalMovieArray,
+        movieSearchResults,
+        setMovieSearchResults,
+        query,
+        setQuery
       }}
     >
       {children}

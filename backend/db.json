@@ -2895,6 +2895,152 @@
           ]
         }
       ]
+    },
+    {
+      "email": "reginaphalange@gmail.com",
+      "password": "$2a$10$mFdeS01z5bZnsZ4zF6PgsOljLsbBVHdqe4ELd8a0iUOkYEbdUVC.K",
+      "name": "Regina Phalange",
+      "id": 1762064169975,
+      "username": "reginaphalange12",
+      "phoneNumber": "98765432393",
+      "age": "23",
+      "avatar": "https://i.pinimg.com/736x/f0/a8/d6/f0a8d666c5d2fe8d572b0aac3ca4b186.jpg",
+      "likedMovies": [
+        {
+          "id": 2,
+          "title": "Leo",
+          "genre": [
+            "Action",
+            "Drama"
+          ],
+          "language": [
+            "Tamil",
+            "Telugu",
+            "Hindi"
+          ],
+          "rating": 7.9,
+          "isLikedByUser": false,
+          "duration": "2h 43m",
+          "releaseDate": "2023-10-19",
+          "description": "A café owner’s dark past resurfaces when he is forced into violence.",
+          "cast": [
+            {
+              "name": "Vijay",
+              "image": "https://m.media-amazon.com/images/I/61Daf205q6L._AC_UF894,1000_QL80_.jpg"
+            },
+            {
+              "name": "Trisha Krishnan",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Trisha_Krishnan_at_PS1_pre_release_event_%283%29_%28cropped%29.jpg"
+            },
+            {
+              "name": "Sanjay Dutt",
+              "image": "https://media.assettype.com/outlookindia/2025-01-06/ughlko40/1.png?w=452&auto=format%2Ccompress&fit=max&format=webp&dpr=1.0"
+            }
+          ],
+          "posterUrl": "https://i.pinimg.com/736x/1a/85/fc/1a85fc08c07154c0e942e771a1d758c6.jpg",
+          "landscapeUrl": "https://i.ytimg.com/vi/Po3jStA673E/maxresdefault.jpg",
+          "availableInLocations": [
+            "Chennai",
+            "Hyderabad",
+            "Bengaluru",
+            "Pune",
+            "Bhubaneswar"
+          ],
+          "showtimes": [
+            {
+              "location": "Chennai",
+              "theater": "AGS Cinemas",
+              "timings": [
+                "10:00 AM",
+                "1:30 PM",
+                "5:30 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 260,
+              "totalSeats": 150,
+              "availableSeats": 125
+            },
+            {
+              "location": "Hyderabad",
+              "theater": "PVR Forum Mall",
+              "timings": [
+                "11:00 AM",
+                "2:45 PM",
+                "6:00 PM",
+                "9:15 PM"
+              ],
+              "ticketPrice": 290,
+              "totalSeats": 150,
+              "availableSeats": 108
+            },
+            {
+              "location": "Bengaluru",
+              "theater": "INOX Garuda Mall",
+              "timings": [
+                "10:30 AM",
+                "2:00 PM",
+                "5:45 PM",
+                "9:00 PM"
+              ],
+              "ticketPrice": 300,
+              "totalSeats": 150,
+              "availableSeats": 75
+            },
+            {
+              "location": "Pune",
+              "theater": "City Pride Kothrud",
+              "timings": [
+                "9:15 AM",
+                "12:45 PM",
+                "4:15 PM",
+                "7:45 PM"
+              ],
+              "ticketPrice": 280,
+              "totalSeats": 150,
+              "availableSeats": 140
+            },
+            {
+              "location": "Bhubaneswar",
+              "theater": "Brindaban Talkies",
+              "timings": [
+                "10:00 AM",
+                "1:30 PM",
+                "5:00 PM",
+                "8:30 PM"
+              ],
+              "ticketPrice": 210,
+              "totalSeats": 150,
+              "availableSeats": 88
+            },
+            {
+              "location": "Bhubaneswar",
+              "theater": "Ravi Talkies",
+              "timings": [
+                "11:00 AM",
+                "1:30 PM",
+                "5:00 PM",
+                "8:30 PM"
+              ],
+              "ticketPrice": 240,
+              "totalSeats": 150,
+              "availableSeats": 80
+            },
+            {
+              "location": "Bhubaneswar",
+              "theater": "Inox",
+              "timings": [
+                "12:00 AM",
+                "1:30 PM",
+                "5:00 PM",
+                "8:30 PM"
+              ],
+              "ticketPrice": 200,
+              "totalSeats": 150,
+              "availableSeats": 18
+            }
+          ]
+        }
+      ]
     }
   ],
   "movies": [

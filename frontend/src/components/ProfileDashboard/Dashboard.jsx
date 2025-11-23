@@ -116,11 +116,11 @@ const Dashboard = () => {
 
               {/* Liked Movies Tab */}
               <TabsContent value="likedMovies">
-                <Card>
+                <Card className="gap-2">
                   <CardHeader>
                     <CardTitle>Liked Movies</CardTitle>
                   </CardHeader>
-                  <CardContent>
+                  <CardContent className="px-0">
                     <LikedMovies />
                   </CardContent>
                 </Card>

@@ -14,6 +14,8 @@ import Home from "./components/Home";
 import { MovieProvider } from "./Context/MovieContext";
 import MovieDetails from "./components/Movies/MovieDetails";
 import Footer from "./components/Footer";
+import LikedMovies from "./components/Movies/LikedMovies";
+import MyMovies from "./components/Movies/MyMovies";
 
 function App() {
   const ProtectedRoute = ({ children }) => {
@@ -56,7 +58,22 @@ function App() {
                 </ProtectedRoute>
               }
             />
-
+            <Route
+              path="/liked"
+              element={
+                <ProtectedRoute>
+                  <LikedMovies />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/bookings"
+              element={
+                <ProtectedRoute>
+                  <MyMovies />
+                </ProtectedRoute>
+              }
+            />
             <Route path="/" element={<Home />} />
             <Route path="/movies/:id" element={<MovieDetails />} />
           </Routes>

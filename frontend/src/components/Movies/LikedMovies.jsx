@@ -9,7 +9,7 @@ export default function LikedMovies() {
 
   return (
     <div className="p-4">
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {user?.likedMovies?.map((movie) => (
           <Link key={movie.id} to={`/movies/${movie.id}`}>
             <MovieCard movie={movie} />

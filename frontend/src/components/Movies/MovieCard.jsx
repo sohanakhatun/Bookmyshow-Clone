@@ -20,7 +20,7 @@ const MovieCard = ({ movie }) => {
   const genres = (movie.genre || []).join(" • ");
   let minPrice = Infinity;
 
-  movie.showtimes.map((s) =>
+  movie.showtimes?.map((s) =>
     s.ticketPrice < minPrice ? (minPrice = s.ticketPrice) : 0
   );
 

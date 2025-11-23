@@ -4,7 +4,8 @@ import MovieCard from "./MovieCard";
 import { MapPinOff } from "lucide-react";
 
 const MovieList = () => {
-  const { movies, error } = useMovieContext();
+  const { movies, error, movieSearchResults , query} = useMovieContext();
+
   if (error || movies.length == 0) {
     return (
       <div className="flex flex-col items-center justify-center text-center p-10 rounded-2xl bg-gray-50 border border-dashed border-gray-300 mx-4 my-8">
@@ -23,11 +24,28 @@ const MovieList = () => {
     );
   }
 
+  const isSearching = query?.trim()?.length > 0;
+  const noResults = isSearching && movieSearchResults.length === 0;
+
+  if (noResults) {
+    return (
+      <div className="flex flex-col h-screen items-center justify-center text-center py-20">
+        <h2 className="text-xl font-semibold text-gray-800 mb-2">
+          No matching movies
+        </h2>
+        <p className="text-gray-600">Try searching for something else.</p>
+      </div>
+    );
+  }
+
+  const listToRender =
+    isSearching && movieSearchResults.length > 0 ? movieSearchResults : movies;
+
   return (
     <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-6">
-      {movies.map((movie) => (
+      {listToRender.map((movie) => (
         <Link key={movie.id} to={`/movies/${movie.id}`}>
-          <MovieCard key={movie.id} movie={movie} />
+          <MovieCard movie={movie} />
         </Link>
       ))}
     </div>
