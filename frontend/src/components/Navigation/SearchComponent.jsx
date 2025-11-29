@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Input } from "@/components/ui/input";
-import { Search } from "lucide-react";
+import { CircleX, Search } from "lucide-react";
 import { useMovieContext } from "../../Context/MovieContext";
 
 const SearchComponent = () => {
@@ -33,7 +33,7 @@ const SearchComponent = () => {
         className="md:hidden p-2 text-gray-700"
         onClick={() => setIsSearchOpen(!isSearchOpen)}
       >
-        <Search size={22} />
+        {isSearchOpen ? <CircleX size={22}/> : <Search size={22} />}
       </button>
 
       {isSearchOpen && (

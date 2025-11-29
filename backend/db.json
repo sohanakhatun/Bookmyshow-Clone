@@ -3041,6 +3041,12 @@
           ]
         }
       ]
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$Dhp1mFAzXe58t11HxQD45Os2oFXbsapbxYvCy1oQu9WNpTYN5tTwa",
+      "name": "John Doe",
+      "id": 1762064169976
     }
   ],
   "movies": [
